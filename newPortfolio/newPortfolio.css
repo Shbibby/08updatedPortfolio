@@ -2,34 +2,68 @@
   background-image: url(./pictures/portfolioBackgroundTychoPink.jpg);
 }
 
-#myFooter {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 50px;
-  background-image: linear-gradient(to right, var(--myDarkerPink) , var(--myLightPink));
-  color: white;
-  text-align: center;
-}
+/* NavBar Style Start */
+  #myNavbar {
+    background-image: linear-gradient(to right, var(--myNavy) , var(--mySunYellow));
+  }
 
-#myNavbar {
-  background-image: linear-gradient(to right, var(--myDarkerBlue) , var(--myLightBlue));
-}
+  #myNavbarDropdown {
+    background-color: var(--mySunYellow);
+    color:black;
+  }
 
-#myNavbarDropdown {
-  background-color: var(--myDarkerBlue);
-}
+  .navGit {
+  color: #66686b;
+  }
+/* NavBar Style End */
 
-/* My Pallet */
-:root {
-  --myLightBlue:#e9fdf2;
-  --myDarkerBlue:#b3f4de;
 
-  --myLightPink:#f9a9cc;
-  --myDarkerPink: #d64789;
-  
-  --myPurple:#b43993;
 
-}
+/*Footer Style Start */
+  #myFooter {
+    position: fixed ;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background-image: linear-gradient(to right, var(--myDarkerPink) , var(--myLightPink));
+    color: white;
+    text-align: center;
+  }
+
+  .myFooterText {
+    color:var(--myLightBlue);
+    text-align: center;
+    
+  }
+
+  #myFooterDropup {
+    background-color: var(--myDarkerPink);
+    color:white;
+  }
+
+  .dropUpText {
+    color: white;
+  }
+
+  .footGit {
+    color: #bfbfbd;
+  }
+/*Footer Style End */
+
+
+/* Pallet Start */
+  :root {
+    --myLightBlue:#e9fdf2;
+    --myDarkerBlue:#b3f4de;
+
+    --myLightPink:#f9a9cc;
+    --myDarkerPink: #d64789;
+    
+    --myPurple:#b43993;
+
+    --myNavy: #192845;
+    --mygrey: #67646d;
+    --mySunYellow:#dbbb85;
+  }
+/* Pallet End */
 
