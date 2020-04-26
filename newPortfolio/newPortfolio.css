@@ -1,96 +1,112 @@
+/** @format */
+
 #myBackground {
-  background-image: url(./pictures/portfolioBackgroundTychoPink.jpg);
+	background-image: url(./pictures/portfolioBackgroundTychoPink.jpg);
 }
 
 #myMobileBackground {
-  
 }
 
 /* NavBar Style Start */
-  #myNavbar {
-    background-image: linear-gradient(to right, var(--myNavy) , var(--mySunYellow));
-  }
+#myNavbar {
+	background-image: linear-gradient(to right, var(--myNavy), var(--mySunYellow));
+}
 
-  #myNavbarDropdown {
-    background-color: var(--mySunYellow);
-    color:var(--myNavy);
-  }
+#myNavbarDropdown {
+	background-color: var(--mySunYellow);
+	color: var(--myNavy);
+}
 
-  .navGit {
-  color: #66686b;
-  }
+.navGit {
+	color: #66686b;
+}
 /* NavBar Style End */
 
-
 /* index.html Container CSS Start */
-  .welcomeText {
-    color: var(--myNavy);
-    font-family: 'Baloo Tamma 2', cursive;
-  }
+.welcomeText {
+	color: var(--myNavy);
+	font-family: "Baloo Tamma 2", cursive;
+}
 
-  .welcomeLink {
-    color: var(--myNavy);
-    font-family: 'Baloo Tamma 2', cursive;
-    font-size: 20pt;
-  }
+.welcomeLink {
+	color: var(--myNavy);
+	font-family: "Baloo Tamma 2", cursive;
+	font-size: 20pt;
+}
 /* index.html Container CSS End */
 
 /* aboutMe.html Container CSS Start */
-  #aboutMeCard {
-    background-color: var(--mySunYellow);
-    color: var(--myNavy);
-    font-family: 'Montserrat Alternates', sans-serif;
-    font-weight: bold;
-  }
+#aboutMeCard {
+	background-color: var(--mySunYellow);
+	color: var(--myNavy);
+	font-family: "Montserrat Alternates", sans-serif;
+	font-weight: bold;
+}
 /* aboutMe.html Container CSS End */
 
+/* portfolio.html Container CSS Start */
+#portfolioCardTitle {
+	font-size: large;
+	text-align: center;
+}
 
+#portfolioCard {
+	/* background-image: linear-gradient(var(--myDarkerPink), var(--myLightPink)); */
+	background-color: var(--myLightPink);
+	margin-top: 10%;
+}
+
+#portfoliocardImage {
+	margin-bottom: 10%;
+}
+
+.portfolioLine {
+	border: 1px solid var(--myNavy);
+}
+/* portfolio.html Container CSS End */
 
 /*Footer Style Start */
-  #myFooter {
-    position: fixed ;
-    bottom: 0px;
-    left: 0px;
-    width: 100%;
-    background-image: linear-gradient(to right, var(--myDarkerPink) , var(--myLightPink));
-    color: white;
-    text-align: center;
-  }
+#myFooter {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	background-image: linear-gradient(to right, var(--myDarkerPink), var(--myLightPink));
+	color: white;
+	text-align: center;
+}
 
-  .myFooterText {
-    color:var(--myLightBlue);
-    text-align: center;
-    
-  }
+.myFooterText {
+	color: var(--myLightBlue);
+	text-align: center;
+}
 
-  #myFooterDropup {
-    background-color: var(--myLightPink);
-    color:white;
-  }
+#myFooterDropup {
+	background-color: var(--myLightPink);
+	color: white;
+}
 
-  .dropUpText {
-    color: white;
-  }
+.dropUpText {
+	color: white;
+}
 
-  .footGit {
-    color: #bfbfbd;
-  }
+.footGit {
+	color: #bfbfbd;
+}
 /*Footer Style End */
 
-
 /* Pallet Start */
-  :root {
-    --myLightBlue:#e9fdf2;
-    --myDarkerBlue:#b3f4de;
+:root {
+	--myLightBlue: #e9fdf2;
+	--myDarkerBlue: #b3f4de;
 
-    --myLightPink:#f9a9cc;
-    --myDarkerPink: #d64789;
-    
-    --myPurple:#b43993;
+	--myLightPink: #f9a9cc;
+	--myDarkerPink: #d64789;
 
-    --myNavy: #192845;
-    --mygrey: #67646d;
-    --mySunYellow:#dbbb85;
-  }
+	--myPurple: #b43993;
+
+	--myNavy: #192845;
+	--mygrey: #67646d;
+	--mySunYellow: #dbbb85;
+}
 /* Pallet End */
-

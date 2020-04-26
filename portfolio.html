@@ -1,106 +1,177 @@
+<!-- @format -->
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- jQuery -->
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-  <!-- Popper.js -->
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <!-- Bootstrap JS -->
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  <!-- Google Fonts API -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
-    <!-- fonts -->
-      <!-- Baloo -->
-      <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600&display=swap" rel="stylesheet">
-    <!-- fonts -->
-  <!-- Local CSS -->
-  <link rel="stylesheet" href="./newPortfolio/newPortfolio.css">
-  <title>Document</title>
-</head>
+		<!-- jQuery -->
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<!-- Popper.js -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+			integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+			crossorigin="anonymous"
+		></script>
+		<!-- Bootstrap JS -->
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+			integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+			crossorigin="anonymous"
+		></script>
+		<!-- Bootstrap CSS -->
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+			integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+			crossorigin="anonymous"
+		/>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+			integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+			crossorigin="anonymous"
+		></script>
+		<!-- Google Fonts API -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine" />
+		<!-- fonts -->
+		<!-- Baloo -->
+		<link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600&display=swap" rel="stylesheet" />
+		<!-- fonts -->
+		<!-- Local CSS -->
+		<link rel="stylesheet" href="./newPortfolio/newPortfolio.css" />
+		<title>Document</title>
+	</head>
 
-<body id="myBackground">
-  <!-- Navbar Start -->
-  <nav class="navbar navbar-expand-lg navbar-dark" id="myNavbar">
-    <a class="navbar-brand center" href="./index.html">Joshua Stillion</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="./aboutMe.html"> About Me <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="./portfolio.html"> Portfolio </a>
-        </li>
-        <li class="nav-item dropdown active">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Things I've done </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown" id="myNavbarDropdown">
-            <a class="dropdown-item" href="https://andreagt91.github.io/Park-Planner/">My first group project</a>
-            <a class="dropdown-item navGit" href="https://github.com/AndreaGT91/Park-Planner">Git Repo</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="https://shbibby.github.io/06WeatherDashboard/">Weather Dashboard</a>
-            <a class="dropdown-item navGit" href="https://github.com/Shbibby/06WeatherDashboard">Git Repo</a>
-             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="https://shbibby.github.io/05DayPlanner/">Work Day Scheduler</a>
-            <a class="dropdown-item navGit" href="https://github.com/Shbibby/05DayPlanner">Git Repo</a>
-          </div>
-        </li>
+	<body id="myBackground">
+		<!-- Navbar Start -->
+		<nav class="navbar navbar-expand-lg navbar-dark" id="myNavbar">
+			<a class="navbar-brand center" href="./index.html">Joshua Stillion</a>
+			<button
+				class="navbar-toggler"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent"
+				aria-expanded="false"
+				aria-label="Toggle navigation"
+			>
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
-      </ul>
-    </div>
-  </nav>
-  <!-- Navbar End -->
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="./aboutMe.html"> About Me <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="./portfolio.html"> Portfolio </a>
+					</li>
+					<li class="nav-item dropdown active">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Things I've done </a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown" id="myNavbarDropdown">
+							<a class="dropdown-item" href="https://andreagt91.github.io/Park-Planner/">My first group project</a>
+							<a class="dropdown-item navGit" href="https://github.com/AndreaGT91/Park-Planner">Git Repo</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="https://shbibby.github.io/06WeatherDashboard/">Weather Dashboard</a>
+							<a class="dropdown-item navGit" href="https://github.com/Shbibby/06WeatherDashboard">Git Repo</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="https://shbibby.github.io/05DayPlanner/">Work Day Scheduler</a>
+							<a class="dropdown-item navGit" href="https://github.com/Shbibby/05DayPlanner">Git Repo</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<!-- Navbar End -->
 
-  <!-- Container Start -->
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        
-      </div>
-    </div>
-  </div>
-  <!-- Container End -->
+		<!-- Container Start -->
+		<div class="container pt-2">
+			<div class="row">
+				<div class="col">
+					<div class="card" id="portfolioCard">
+						<div class="card-body">
+							<h5 class="card-title" id="portfolioCardTitle">Portfolio</h5>
+							<hr class="portfolioLine" />
 
-  <!-- Footer  Start-->
-  <nav class="navbar navbar-expand-lg navbar-dark" id="myFooter">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href=""> Created by Joshua Stillion : <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="https://github.com/Shbibby"> [ GitHub Profile ] <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="https://www.linkedin.com/in/joshua-stillion-1026471a1/"> [ LinkedIn Profile ] <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="./Resume.pdf"> [ Resume ] <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link"> Email : Joshstillion@gmail.com <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link"> Work Phone : 678-208-9782 <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" style="font-size: 6pt; margin-top: 10%;"> [shbibby] <span class="sr-only">(current)</span></a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <!-- Footer End -->
-</body>
+							<div class="row mb-3">
+								<!-- Park Planner Image -->
+								<div class="col-sm-6 col-xs-12">
+									<a href="https://andreagt91.github.io/Park-Planner/">
+										<img src="./newPortfolio/pictures/parkPlanner.jpg" style="width: 75%;" class="card-img-top m-auto img-thumbnail mx-auto d-block" alt="Park Planner" />
+									</a>
+								</div>
+
+								<!-- Weather Dashboard Image -->
+								<div class="col-sm-6 col-xs-12">
+									<a href="https://shbibby.github.io/06WeatherDashboard/">
+										<img src="./newPortfolio/pictures/weatherDashboard.png" style="width: 75%;" class="card-img-top m-auto img-thumbnail mx-auto d-block" alt="Weather Dashboard" />
+									</a>
+								</div>
+							</div>
+
+							<div class="row mb-3">
+								<!-- Work Day Scheduler -->
+								<div class="col-sm-6 col-xs-12">
+									<a href="https://shbibby.github.io/05DayPlanner/">
+										<img src="./newPortfolio/pictures/workDayScheduler.png" style="width: 75%;" class="card-img-top m-auto img-thumbnail mx-auto d-block" alt="Work Day Scheduler" />
+									</a>
+								</div>
+
+								<!-- Password Generator -->
+								<div class="col-sm-6 col-xs-12">
+									<a href="https://shbibby.github.io/03PasswordGenerator/">
+										<img src="./newPortfolio/pictures/passwordGenerator.png" style="width: 75%;" class="card-img-top m-auto img-thumbnail mx-auto d-block" alt="Password Generator" />
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Container End -->
+
+		<!-- Footer  Start-->
+		<nav class="navbar navbar-expand-lg navbar-dark" id="myFooter">
+			<button
+				class="navbar-toggler"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent"
+				aria-expanded="false"
+				aria-label="Toggle navigation"
+			>
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href=""> Created by Joshua Stillion : <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="https://github.com/Shbibby"> [ GitHub Profile ] <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="https://www.linkedin.com/in/joshua-stillion-1026471a1/"> [ LinkedIn Profile ] <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="./Resume.pdf"> [ Resume ] <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link"> Email : Joshstillion@gmail.com <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link"> Work Phone : 678-208-9782 <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" style="font-size: 6pt; margin-top: 10%;"> [shbibby] <span class="sr-only">(current)</span></a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<!-- Footer End -->
+	</body>
 </html>
