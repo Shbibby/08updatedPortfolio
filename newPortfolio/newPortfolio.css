@@ -2,6 +2,10 @@
   background-image: url(./pictures/portfolioBackgroundTychoPink.jpg);
 }
 
+#myMobileBackground {
+  
+}
+
 /* NavBar Style Start */
   #myNavbar {
     background-image: linear-gradient(to right, var(--myNavy) , var(--mySunYellow));
@@ -17,6 +21,25 @@
   }
 /* NavBar Style End */
 
+
+/* index.html Container CSS Start */
+  .welcomeText {
+    color: var(--myNavy);
+    font-family: 'Baloo Tamma 2', cursive;
+  }
+
+  .welcomeLink {
+    color: var(--myNavy);
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 20pt;
+  }
+
+  .contactBelow {
+    color: var(--myNavy);
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 14pt;
+  }
+/* index.html Container CSS End */
 
 
 /*Footer Style Start */
@@ -37,7 +60,7 @@
   }
 
   #myFooterDropup {
-    background-color: var(--myDarkerPink);
+    background-color: var(--myLightPink);
     color:white;
   }
 
