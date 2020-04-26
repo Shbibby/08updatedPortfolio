@@ -1,7 +1,15 @@
 /** @format */
 
-#myBackground {
-	background-image: url(./pictures/portfolioBackgroundTychoPink.jpg);
+@media (max-width: 750px) {
+	#myBackground {
+		background-image: url(./pictures/portfolioBackgroundTychoPinkPhone.jpg);
+	}
+}
+
+@media (min-width: 751px) {
+	#myBackground {
+		background-image: url(./pictures/portfolioBackgroundTychoPink.jpg);
+	}
 }
 
 #myMobileBackground {
