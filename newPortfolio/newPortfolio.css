@@ -13,7 +13,7 @@
 
   #myNavbarDropdown {
     background-color: var(--mySunYellow);
-    color:black;
+    color:var(--myNavy);
   }
 
   .navGit {
@@ -36,7 +36,12 @@
 /* index.html Container CSS End */
 
 /* aboutMe.html Container CSS Start */
-  
+  #aboutMeCard {
+    background-color: var(--mySunYellow);
+    color: var(--myNavy);
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+  }
 /* aboutMe.html Container CSS End */
 
 
